@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         //Instanciar conexión a firebase
         db = FirebaseFirestore.getInstance();
 
+        fondoLogin = findViewById(R.id.constraintLogin);
 
         inicializarVistas();
         fondoLogin.setBackgroundResource(funciones.configFondo());
