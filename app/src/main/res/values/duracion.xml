@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayDuracionEntries">
+        <item>10s</item>
+        <item>30s</item>
+        <item>60s</item>
+    </string-array>
+    <string-array name="arrayDuracionValues">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+</resources>

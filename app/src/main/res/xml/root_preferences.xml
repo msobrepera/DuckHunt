@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Duración">
+
+        <ListPreference
+            android:defaultValue="false"
+            android:entries="@array/arrayDuracionEntries"
+            android:entryValues="@array/arrayDuracionValues"
+            android:key="duration"
+            android:title="Duración de la partida"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Apariencia">
+
+        <ListPreference
+            android:defaultValue="original"
+            android:entries="@array/fondo_entries"
+            android:entryValues="@array/fondo_values"
+            android:key="fondo"
+            android:title="Selecciona Fondo"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Contacta">
+        <Preference
+            android:title="Contacta"
+
+            android:key="contacta"
+            android:widgetLayout="@layout/boton_enviar">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
